@@ -46,7 +46,6 @@ export const projects: Project[] = [
         'Les notions d’électricité (circuits, schémas, protections) sont souvent abstraites quand on les découvre. Voltude cherche à les rendre plus visuelles et plus progressives, pour l’étudiant comme pour le formateur qui l’accompagne.',
       contribution:
         'Je conduis le projet avec l’assistance de l’IA : je définis les besoins, je choisis les fonctionnalités, je teste chaque version et je suis les corrections.',
-      ia: 'Le code est produit avec l’IA, selon la méthode décrite dans « Ma démarche ».',
       resultat: 'Projet en développement, pas encore diffusé.',
       apprentissage:
         'Découper un besoin en fonctionnalités, penser un même produit pour deux publics, lire le code pour comprendre ce qu’il fait, et relier mon métier à un outil numérique.',
@@ -77,7 +76,7 @@ export const projects: Project[] = [
       ),
     ],
     partsNote:
-      'Ces captures présentent les écrans d’accès de Voltude S et Pro. Elles ne démontrent pas le fonctionnement des fonctionnalités internes.',
+      'Ces captures montrent les écrans d’accès de Voltude S et Pro. Les fonctions internes restent des objectifs.',
     parts: [
       {
         id: 'voltude-s',
@@ -122,8 +121,7 @@ export const projects: Project[] = [
       besoin:
         'Faire connaître la marque, développer sa présence en ligne et avancer sur le plan commercial auprès des clubs et des partenaires.',
       contribution:
-        'Je participe à la négociation et au marketing de la marque, ainsi qu’à son projet numérique.',
-      ia: 'Sur le volet numérique, je conduis mon travail avec l’assistance de l’IA, selon la méthode décrite dans « Ma démarche ».',
+        'Je participe à la négociation et au marketing de la marque, ainsi qu’à son projet numérique, que je mène avec l’assistance de l’IA.',
       resultat:
         'Le site de la marque est en ligne : collection, fiches produits, configurateur de tenue et demande de devis. Ma contribution se poursuit.',
       apprentissage:
@@ -172,8 +170,8 @@ export const projects: Project[] = [
     facts: {
       besoin:
         'Présenter les produits de la marque clairement, avec un affichage soigné quel que soit l’écran.',
-      contribution: 'La présentation des produits (collection et fiches) et l’affichage sur téléphone.',
-      ia: 'Je m’appuie sur l’IA pour avancer sur la réalisation du site, puis vérifier le rendu et demander des corrections.',
+      contribution:
+        'La présentation des produits (collection et fiches) et l’affichage sur téléphone. Je m’appuie sur l’IA pour la réalisation, puis je vérifie le rendu et demande des corrections.',
       resultat: 'Le site présente la collection et une fiche par produit, sur ordinateur comme sur téléphone.',
       apprentissage:
         'La mise en page adaptée aux écrans, la hiérarchie d’une fiche produit, et l’importance de tester sur de vrais appareils.',
@@ -211,13 +209,13 @@ export const projects: Project[] = [
     kind: 'Apprentissage Python',
     status: 'Projet d’apprentissage en cours',
     pitch:
-      'Mon terrain d’entraînement en Python : un petit outil de suivi de tâches que je construis moi-même, au rythme de mon apprentissage.',
+      'Mon terrain d’entraînement en Python : un petit outil de suivi de tâches que je construis moi-même.',
     facts: {
       besoin:
         'Apprendre Python sur un besoin concret plutôt que sur des exercices isolés.',
       contribution: 'J’écris le code moi-même : c’est le but du projet.',
       ia: 'Ici, l’IA ne produit pas le code : elle m’explique les notions et m’aide à comprendre mes erreurs.',
-      resultat: 'Projet d’apprentissage en cours, pas un outil terminé.',
+      resultat: 'Les fonctions arrivent au fil de mon apprentissage.',
       apprentissage:
         'Écrire du code moi-même, comprendre mes erreurs et progresser étape par étape.',
     },

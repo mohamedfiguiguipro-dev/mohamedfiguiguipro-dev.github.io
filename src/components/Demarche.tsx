@@ -29,19 +29,6 @@ export function Demarche() {
           </li>
         ))}
       </ol>
-
-      <div className="split">
-        {[demarche.today, demarche.goals].map((col, i) => (
-          <div className={`split__col${i === 1 ? ' split__col--learning' : ''}`} data-reveal key={col.title}>
-            <h3 className="split__title">{col.title}</h3>
-            <ul>
-              {col.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
     </section>
   )
 }

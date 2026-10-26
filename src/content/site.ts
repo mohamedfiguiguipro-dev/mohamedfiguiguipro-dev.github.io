@@ -34,11 +34,9 @@ export const hero = {
   title: ['Comprendre les systèmes.', 'Concevoir des logiciels.'],
   subtitle: [
     'Technicien en courant faible chez Phibor, je travaille sur les systèmes de sécurité incendie (SSI), notamment les CMSI, et le contrôle d’accès. En parallèle, je conçois des projets numériques avec l’assistance de l’IA et j’apprends à programmer.',
-    'Découvrez mes réalisations, ma démarche et les compétences que je développe.',
   ],
   primary: { label: 'Voir mes réalisations', href: '#projets' },
   secondary: { label: 'Me contacter', href: '#contact' },
-  aside: { label: 'Ce que je peux réaliser', href: '#realiser' },
   legend: [
     { label: 'Aujourd’hui', text: 'Technicien en courant faible chez Phibor — VINCI Energies, depuis janvier 2026.' },
     { label: 'En cours', text: 'Apprentissage de Python — niveau débutant.' },
@@ -54,7 +52,7 @@ export const projectsIntro = {
 export const parcours = {
   title: 'Parcours',
   heading: 'Mon parcours et mes objectifs',
-  lead: 'Chez Phibor, je travaille sur les systèmes de sécurité incendie (SSI), notamment les CMSI, et le contrôle d’accès. Ces systèmes m’amènent à comprendre des enchaînements logiques, vérifier des connexions et rechercher l’origine d’un problème. Je retrouve cette démarche dans mon apprentissage de la programmation.',
+  lead: 'Sur le terrain, les systèmes de sécurité incendie et le contrôle d’accès m’apprennent à comprendre des enchaînements logiques, vérifier des connexions et rechercher l’origine d’un problème. Je retrouve cette démarche en programmation.',
   timeline: [
     {
       when: 'Depuis janvier 2026',
@@ -127,30 +125,12 @@ export const demarche = {
       text: 'Revenir sur le code produit, poser des questions, apprendre Python pour aller plus loin seul.',
     },
   ],
-  today: {
-    title: "Ce que je fais aujourd’hui",
-    items: [
-      'Traduire un besoin en fonctionnalités',
-      "Formuler des demandes précises à l’IA et itérer",
-      'Tester, repérer les erreurs, faire corriger',
-      "Suivre l’avancement d’un projet jusqu’au résultat",
-    ],
-  },
-  goals: {
-    title: 'Mes objectifs',
-    items: [
-      'Maîtriser progressivement Python et les fondamentaux de la programmation.',
-      'Comprendre et expliquer le code de mes projets.',
-      'Apprendre à concevoir, tester et maintenir des logiciels.',
-      'Gagner en autonomie technique pour évoluer vers le métier d’ingénieur logiciel.',
-    ],
-  },
 }
 
 export const objectif = {
   title: 'Objectifs',
   big: ['Apprendre,', 'construire.'],
-  lead: 'Mon objectif est de concevoir des logiciels utiles et de comprendre leur fonctionnement. Je développe cette pratique à travers mes projets assistés par IA et mon apprentissage de la programmation. Je cherche à progresser dans un cadre où je peux apprendre, contribuer et confronter mes idées à des besoins réels.',
+  lead: 'Mon objectif est de concevoir des logiciels utiles et de comprendre leur fonctionnement. Je cherche un cadre où apprendre, contribuer et confronter mes idées à des besoins réels.',
   domainsTitle: 'Domaines d’intérêt',
   /** Le premier domaine est la direction principale ; les autres ne sont pas des expertises acquises. */
   domains: [
@@ -160,13 +140,14 @@ export const objectif = {
     'Cybersécurité',
     'Gestion technique du bâtiment',
   ],
-  domainsNote: 'La conception de logiciels est ma direction principale. Les autres domaines m’intéressent : ce ne sont pas des compétences acquises.',
-  method: {
-    title: 'Ma façon de travailler',
+  domainsNote: 'La conception de logiciels est ma direction principale ; les autres domaines sont des centres d’intérêt.',
+  /** La méthode de travail est décrite une seule fois, dans « Ma démarche ». */
+  goals: {
+    title: 'Mes objectifs',
     items: [
-      'Clarifier le besoin avant de commencer.',
-      'Découper le travail en étapes concrètes.',
-      'Tester, relever les problèmes et suivre les corrections.',
+      'Maîtriser progressivement Python et les fondamentaux de la programmation.',
+      'Comprendre et expliquer le code de mes projets.',
+      'Apprendre à concevoir, tester et maintenir des logiciels.',
     ],
   },
   cta: { label: 'Proposer un échange', href: '#contact' },
@@ -176,7 +157,7 @@ export const objectif = {
 export const services = {
   title: 'Services',
   heading: 'Ce que je peux réaliser',
-  lead: 'Pour une petite entreprise, une marque ou un projet qui démarre : trois types de réalisations, à taille humaine. Je travaille avec des outils d’IA : je définis le besoin, je vérifie le résultat et j’ajuste la réalisation jusqu’à ce qu’elle corresponde à la demande.',
+  lead: 'Pour une petite entreprise, une marque ou un projet qui démarre : trois types de réalisations, à taille humaine, menées avec des outils d’IA selon ma démarche.',
   items: [
     {
       title: 'Sites vitrines et pages de présentation',

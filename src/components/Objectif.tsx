@@ -5,7 +5,7 @@ export function Objectif() {
   return (
     <section id="objectif" className="section section--objectif" aria-labelledby="objectif-title">
       <p className="objectif__index mono" aria-hidden="true">
-        02 — {objectif.title}
+        {objectif.title}
       </p>
       <h2 id="objectif-title" className="objectif__big" data-reveal>
         <span>{objectif.big[0]}</span>
@@ -24,9 +24,9 @@ export function Objectif() {
           <p className="objectif__note">{objectif.domainsNote}</p>
         </div>
         <div data-reveal>
-          <h3 className="objectif__subtitle mono">{objectif.method.title}</h3>
+          <h3 className="objectif__subtitle mono">{objectif.goals.title}</h3>
           <ul className="objectif__bring">
-            {objectif.method.items.map((item) => (
+            {objectif.goals.items.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>

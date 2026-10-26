@@ -65,12 +65,6 @@ export function Hero() {
           </a>
         </div>
 
-        <p className="hero__aside intro" style={delay(300)}>
-          <a className="text-link" href={hero.aside.href}>
-            <span>{hero.aside.label}</span>
-            <ArrowIcon direction="down" />
-          </a>
-        </p>
       </div>
 
       <div className="hero__art">
