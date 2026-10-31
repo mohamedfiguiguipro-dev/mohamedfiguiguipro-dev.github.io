@@ -114,16 +114,16 @@ export const projects: Project[] = [
     index: '02',
     name: 'ASSA Sport',
     kind: 'Marque d’équipement de football',
-    status: 'Contribution en cours',
+    status: 'Co-fondateur, en cours',
     pitch:
-      'ASSA Sport est une marque de maillots, de ballons et d’équipements personnalisables, destinée aux clubs de football. J’y contribue sur la négociation, le marketing et le numérique.',
+      'ASSA Sport est une marque de maillots, de ballons et d’équipements personnalisables, destinée aux clubs de football. Je l’ai co-fondée avec un associé ; je m’occupe de la négociation, du marketing et du numérique.',
     facts: {
       besoin:
         'Faire connaître la marque, développer sa présence en ligne et avancer sur le plan commercial auprès des clubs et des partenaires.',
       contribution:
-        'Je participe à la négociation et au marketing de la marque, ainsi qu’à son projet numérique, que je mène avec l’assistance de l’IA.',
+        'Co-fondateur avec un associé : négociation avec les fournisseurs, chiffrage, marketing, réseaux sociaux et contenus visuels. Je mène le volet numérique, dont le site, avec l’assistance de l’IA.',
       resultat:
-        'Le site de la marque est en ligne : collection, fiches produits, configurateur de tenue et demande de devis. Ma contribution se poursuit.',
+        'Marque lancée et site en ligne : collection, fiches produits, configurateur de tenue et demande de devis.',
       apprentissage:
         'Négocier et défendre une proposition, penser marketing et expérience client, coordonner plusieurs volets d’un même projet.',
     },
